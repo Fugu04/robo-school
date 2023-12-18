@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap');
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+    color: var(--black_text);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+:root{
+    --white_text: #fff;
+    --black_text: #141024;
+    --bg_color: #141024;
+    --btn_color: #D52027;
+}
+
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.main{
+    background: var(--bg_color);
+}
+
+.header{
+    max-width: 1720px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white_text);
+    padding-top: 30px;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.menu{
+    display: flex;
+
+    gap: 40px;
+}
+
+.menu__link{
+    color: var(--white_text);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.phone{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white_text);
+}
+
+.hero--title{
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero--subtitle{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.hero--btn{
+    background: var(--btn_color);
+    padding: 25px 54px;
+}
