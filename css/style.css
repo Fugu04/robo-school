@@ -22,12 +22,17 @@ body{
     --white_text: #fff;
     --black_text: #141024;
     --bg_color: #141024;
-    --btn_color: #D52027;
+    --red_color: #D52027;
+}
+
+.title{
+    font-weight: 600;
 }
 
 .container{
     max-width: 1160px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .main{
@@ -50,7 +55,6 @@ body{
 
 .menu{
     display: flex;
-
     gap: 40px;
 }
 
@@ -74,7 +78,6 @@ body{
 
 .hero--title{
     font-size: 70px;
-    font-weight: 600;
     margin-bottom: 20px;
 }
 
@@ -84,6 +87,54 @@ body{
 }
 
 .hero--btn{
-    background: var(--btn_color);
+    background: var(--red_color);
     padding: 25px 54px;
 }
+
+
+/* about */
+
+.about--subtitle{
+    max-width: 891px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.card__container{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.about .card__item{
+    max-width: 260px;
+}
+
+.about .card__title{
+    font-size: 70px;
+    color: var(--red_color);
+    line-height: 160%
+}
+
+/* course */
+
+.course{
+    margin-top: 220px;
+}
+
+.course--title{
+    font-size: 50px;
+}
+
+.course .card__item{
+    max-width: 360px;
+}
+
+.course .card__title{
+    font-size: 24px;
+    color: var(--black_text);
+}
+
