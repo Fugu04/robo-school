@@ -94,23 +94,43 @@ body{
 
 /* about */
 
+.about{
+    padding: 100px 0;
+    margin-top: 120px;
+}
+
 .about--subtitle{
     max-width: 891px;
     font-size: 30px;
     font-weight: 400;
-    margin-top: 120px;
     margin-bottom: 60px;
 }
 
 .card__container{
     max-width: 100%;
     display: flex;
-    flex-wrap: wrap;
     gap: 40px;
+    margin-top: 60px;
+}
+
+.card__item{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card__title{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card__link{
+    color: #D52027;
+    margin-top: 20px;
 }
 
 .about .card__item{
-    max-width: 260px;
+    max-width: 250px;
 }
 
 .about .card__title{
@@ -122,7 +142,8 @@ body{
 /* course */
 
 .course{
-    margin-top: 220px;
+    padding: 100px 0;
+    margin-top: 120px;
 }
 
 .course--title{
@@ -130,11 +151,31 @@ body{
 }
 
 .course .card__item{
-    max-width: 360px;
+    max-width: 346px;
 }
 
 .course .card__title{
     font-size: 24px;
     color: var(--black_text);
+    margin-bottom: 20px;
 }
+
+/* trainer */
+
+.trainer{
+    padding: 100px 0;
+    margin-top: 120px;
+}
+
+.trainer--title{
+    font-size: 50px;
+}
+
+.trainer .card__item img{
+    border-radius: 20px;
+}
+
+
+
+
 
